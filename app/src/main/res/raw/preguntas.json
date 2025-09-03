@@ -1,0 +1,135 @@
+{
+  "Microondas": [
+    {
+      "enunciado": "¿Qué tipo de onda se utiliza en enlaces de microondas?",
+      "opciones": ["Electromagnética", "Sonora", "Mecánica", "Longitudinal"],
+      "indiceCorrecto": 0,
+      "pista": "Viaja por el vacío sin necesidad de un medio físico"
+    },
+    {
+      "enunciado": "¿Cuál es la principal característica de la propagación en línea de vista (LOS)?",
+      "opciones": ["Requiere visibilidad directa", "Viaja por el suelo", "Refleja en la ionósfera", "Viaja por cables"],
+      "indiceCorrecto": 0,
+      "pista": "No debe haber obstáculos entre emisor y receptor"
+    },
+    {
+      "enunciado": "¿Qué banda se usa comúnmente para enlaces punto a punto de microondas?",
+      "opciones": ["Banda C", "Banda AM", "Banda UHF", "Banda VLF"],
+      "indiceCorrecto": 0,
+      "pista": "Es usada para enlaces satelitales y terrestres"
+    },
+    {
+      "enunciado": "¿Cuál de estos fenómenos afecta la propagación de ondas en microondas?",
+      "opciones": ["Difracción", "Reflexión", "Atenuación", "Todas las anteriores"],
+      "indiceCorrecto": 3,
+      "pista": "La propagación está influenciada por varios efectos físicos"
+    },
+    {
+      "enunciado": "¿Qué es una guía de onda?",
+      "opciones": ["Medio para transportar microondas", "Un tipo de antena", "Cable de cobre", "Transceptor digital"],
+      "indiceCorrecto": 0,
+      "pista": "Es un canal metálico cerrado o dieléctrico"
+    },
+    {
+      "enunciado": "¿Qué frecuencia caracteriza a las microondas?",
+      "opciones": ["300 MHz - 300 GHz", "3 Hz - 30 Hz", "1 kHz - 10 kHz", "30 GHz - 300 THz"],
+      "indiceCorrecto": 0,
+      "pista": "Está entre ondas de radio y luz infrarroja"
+    },
+    {
+      "enunciado": "¿Cuál es una aplicación común de las microondas en telecomunicaciones?",
+      "opciones": ["Enlaces punto a punto", "Ethernet", "Cable coaxial", "Bluetooth"],
+      "indiceCorrecto": 0,
+      "pista": "Permiten transmisión a largas distancias sin cableado"
+    }
+  ],
+  "Redes": [
+    {
+      "enunciado": "¿Qué dirección IP es de loopback?",
+      "opciones": ["127.0.0.1", "192.168.0.1", "10.0.0.1", "8.8.8.8"],
+      "indiceCorrecto": 0,
+      "pista": "Se refiere a ti mismo"
+    },
+    {
+      "enunciado": "¿Qué protocolo se usa para enviar correos?",
+      "opciones": ["SMTP", "FTP", "HTTP", "SSH"],
+      "indiceCorrecto": 0,
+      "pista": "Es un protocolo de transferencia de correo"
+    },
+    {
+      "enunciado": "¿Qué hace el protocolo DHCP?",
+      "opciones": ["Asigna direcciones IP", "Encripta mensajes", "Envía correos", "Establece llamadas"],
+      "indiceCorrecto": 0,
+      "pista": "Configura redes automáticamente"
+    },
+    {
+      "enunciado": "¿Qué es una dirección MAC?",
+      "opciones": ["Identificador físico", "Dirección IP", "Nombre de red", "DNS"],
+      "indiceCorrecto": 0,
+      "pista": "Es única por dispositivo"
+    },
+    {
+      "enunciado": "¿Qué puerto usa HTTP?",
+      "opciones": ["80", "443", "21", "22"],
+      "indiceCorrecto": 0,
+      "pista": "Es el estándar sin cifrado"
+    },
+    {
+      "enunciado": "¿Qué significa LAN?",
+      "opciones": ["Local Area Network", "Large Area Network", "Limited Access Node", "Logical Access Network"],
+      "indiceCorrecto": 0,
+      "pista": "Es una red pequeña y local"
+    },
+    {
+      "enunciado": "¿Qué dispositivo conecta múltiples redes?",
+      "opciones": ["Router", "Switch", "Hub", "Bridge"],
+      "indiceCorrecto": 0,
+      "pista": "También te da acceso a internet"
+    }
+  ],
+  "Ciberseguridad": [
+    {
+      "enunciado": "¿Qué es phishing?",
+      "opciones": ["Suplantación para obtener datos", "Ataque físico", "Virus informático", "Escaneo de puertos"],
+      "indiceCorrecto": 0,
+      "pista": "Engaña al usuario para robarle información"
+    },
+    {
+      "enunciado": "¿Qué hace un firewall?",
+      "opciones": ["Filtra tráfico de red", "Almacena contraseñas", "Detecta virus", "Encripta correos"],
+      "indiceCorrecto": 0,
+      "pista": "Actúa como un muro entre tu red y el mundo"
+    },
+    {
+      "enunciado": "¿Qué es un malware?",
+      "opciones": ["Software malicioso", "Antivirus", "Sistema operativo", "Cortafuegos"],
+      "indiceCorrecto": 0,
+      "pista": "Puede incluir virus, troyanos y más"
+    },
+    {
+      "enunciado": "¿Cuál es una buena práctica para contraseñas?",
+      "opciones": ["Usar combinaciones seguras", "Compartirla", "Escribirla en un papel", "Usar solo números"],
+      "indiceCorrecto": 0,
+      "pista": "Debe ser larga, variada y privada"
+    },
+    {
+      "enunciado": "¿Qué es el cifrado?",
+      "opciones": ["Transformar datos para protegerlos", "Borrar información", "Duplicar archivos", "Reducir tamaño"],
+      "indiceCorrecto": 0,
+      "pista": "Protege la información haciéndola ilegible sin clave"
+    },
+    {
+      "enunciado": "¿Qué tipo de ataque busca saturar un servidor?",
+      "opciones": ["DDoS", "Phishing", "SQL Injection", "Spoofing"],
+      "indiceCorrecto": 0,
+      "pista": "Envia muchas peticiones para colapsar el sistema"
+    },
+    {
+      "enunciado": "¿Qué herramienta detecta vulnerabilidades?",
+      "opciones": ["Escáner de puertos", "Firewall", "Antivirus", "Router"],
+      "indiceCorrecto": 0,
+      "pista": "Explora servicios abiertos en un sistema"
+    }
+  ]
+}
+

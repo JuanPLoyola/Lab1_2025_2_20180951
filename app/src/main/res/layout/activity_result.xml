@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tvTema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Microondas"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Texto Puntaje Total -->
+    <TextView
+        android:id="@+id/tvPuntajeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntaje Total:"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/tvTema"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Cuadro de puntaje -->
+    <TextView
+        android:id="@+id/tvPuntajeNumero"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="10"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:background="@android:color/holo_green_light"
+        app:layout_constraintTop_toBottomOf="@id/tvPuntajeLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botón Anterior -->
+    <Button
+        android:id="@+id/btnAnterior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anterior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="32dp"/>
+
+    <!-- Botón Volver a jugar -->
+    <Button
+        android:id="@+id/btnVolverAJugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver a jugar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="32dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
